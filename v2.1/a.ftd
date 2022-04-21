@@ -1,6 +1,6 @@
 -- import: fpm
 
--- ftd.text: Hello v2 😇
+-- ftd.text: a v2.1
 
 -- fpm.versions:
 $processor$: get-version-data
@@ -21,6 +21,3 @@ boolean is-heading: false
 string url:
 color if $is-heading: $red
 link: $url
-
-
-

@@ -1,14 +1,6 @@
 -- import: fpm
 
--- string data:
-$processor$: get-data
-
-"hello"
-
--- ftd.text: Message from foo in v1
-
--- ftd.text: versions:
-
+-- ftd.text: data v2
 
 -- fpm.versions:
 $processor$: get-version-data

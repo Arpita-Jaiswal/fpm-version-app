@@ -1,6 +1,6 @@
 -- import: fpm
 
--- ftd.text: bar
+-- ftd.text: bar v1.2
 
 -- fpm.versions:
 $processor$: get-version-data

@@ -1,0 +1,31 @@
+-- import: fpm
+
+-- string data:
+$processor$: get-data
+
+"hello"
+
+-- ftd.text: Message from foo in v1.0
+
+-- ftd.text: versions:
+
+
+-- fpm.versions:
+$processor$: get-version-data
+
+
+-- version: $obj.title
+is-heading: $obj.is-heading
+url: $obj.url
+$loop$: $fpm.versions as $obj
+
+-- ftd.color red:
+light: red
+dark: red
+
+-- ftd.text version: $title
+caption title:
+boolean is-heading: false
+string url:
+color if $is-heading: $red
+link: $url
